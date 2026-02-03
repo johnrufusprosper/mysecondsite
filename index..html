@@ -1,0 +1,107 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width,initial-scale=1.0
+   <title>My Professional Portfolio</title>
+
+   <link rel="stylessheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <style>
+     html{scrool-behaviour: smooth;}
+     body{
+      font-family: sans-serif;
+      margin: 0;
+      padding-top: 80px;
+      background-color: #f4f4f9
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+
+     .navbar{
+       width: 100%;
+       background: white;
+       padding: 15px0;
+       display: flex;
+       justify-content: space-around
+       align-items: center;
+       position: fixed;
+       top: 0;
+       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+       z-index: 1000;
+     }
+
+     .card{
+       width:300px;
+       padding: 30px;
+       background: white;
+       text-align: center;
+       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+       margin-bottom: 40px;
+     }
+     .caard img {width: 100px; border-radiusL 50%; }
+     .card button{ background: #6366f1; color: white, border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; }
+     
+     
+     .content-sections{max-width: 600px; width: 90%; }
+     .grid{display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0; }
+     .item {background: #e2e8f0; height:100px; display: flex; align-items: center;justify-content: center; border-radius: 10px; }
+
+
+     .footer{width: 100%; padding: 40px 0; background: #333; color: white; tex-align: center; margin-top: 50px;}
+     .social-icons a { color: white, fontsize: 24px; margin: 0 10px; transition: 0.3s; display: inline-block; }
+     .social-icons a:hover{ color: #6366f1; transform: translatey(-5px);}
+    </style>
+   </head>
+  <body>
+
+
+    <nav class="navbar">
+      <div class-"logo"><strong>AD</strong> Design</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#work-section">work</a></li>
+       </ul>
+      </nav>
+
+
+      <div class="card">
+        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=felix"alt="profile">
+        <h1>Alex Designer</h1>
+        <p>Web Design Enthusiast</p>
+        <button>contact Me</button>
+      </div>
+
+
+      <div class="content-sections">
+        <section id="about-section">
+          <h2>About Me</h2>
+          <p>I am a junior designer learning the ropes of HTMLL and CSS.</p>
+        </section>
+
+
+        <section id="work-section">
+          <h2>My Work</h2>
+          <div class="grid">
+          <div class="item">project 1</div>
+          <div class="item">project 2</div>
+          <div class=item)project 3</div>
+         </div>
+        </section>
+       </div>
+
+
+       <footer class="footer">
+         <p>@ 2026 Alex Designer</p>
+         <div class="social-icons">
+           <a href="#"><! class="fab fa-linkedin"></i></a>
+           <a href="#"><! class="fab fa-github"></i></a>
+           <a href="#"><! class+"fab fa-instagram"></!></a>
+          </div>
+         </footer>
+        
+
+       </body>
+       </html>
